@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">FOODIE</string>
+    <string name="Text">About Us</string>
+    <string name="text1">Welcome To FOODIE</string>
+    <string name="text02">FOODIE is product to have build restaurant web site for businesses just like yours all over the sri lanka.
+    We add new customers every week and we are looking forward to setting up and online ordering system or restaurant web site
+    that works for you. Give us a call today and join the FOODIE family of restaurants! You\'ll be glad you did</string>
+    <string name="text_feedback">FeedBack</string>
+    <string name="text_feedback2">Provide Your Feedback</string>
+    <string name="text_feedback3">Very Disatisfied</string>
+    <string name="text_feedback4">Type Feedback Here</string>
+    <string name="submit1">SEND FEEDBACK</string>
+    <string name="textarea" />
+    <string name="text_contact">Contact Us</string>
+    <string name="text_about2">No: 48/53 Main road, Dharmapala Mawatha
+        Colombo 7</string>
+    <string name="text_user">0477625789</string>
+    <string name="text_facebook">WWW.FoodieLK</string>
+    <string name="text_insta">WWW.FoodieLKInstagram</string>
+    <string name="text_gmail">www.FoodieLK@gmail.com</string>
+    <string name="text_inquire1">Have anything to inquiry to us</string>
+    <string name="text_name">Name :</string>
+    <string name="name_id" />
+    <string name="text_type">Inquiry Type :</string>
+    <string name="inquiry_id" />
+    <string name="text_contact_no">Contact No :</string>
+    <string name="text_contact_no1">Contact No :</string>
+    <string name="contact_id" />
+    <string name="text_inquiry_type">Type your inquiry here :</string>
+    <string name="inquiry_type" />
+    <string name="submit_button">Submit Inquiry</string>
+    <string name="back_button">Back</string>
+    <string name="inquiry_id1" />
+    <string name="button">Button</string>
+    <string name="type_your_inquire_here">Type your inquire here :</string>
+    <string name="name">Name :</string>
+    <string name="submit_Button">Submit_Inquiry</string>
+    <string name="back_Button">Back</string>
+    <string name="submit">Submit Inquiry</string>
+    <string name="back">BACK</string>
+    <string name="Rate">tell us</string>
+    <string name="rate">TELL US</string>
+    <string name="With">WITH US</string>
+    <string name="callbutton">CALL</string>
+    <string name="heading">Hotline </string>
+    <string name="invalid_name">Please Enter the name</string>
+    <string name="invalid_inquiry">Please Enter Inquiry type</string>
+    <string name="invalid_number">Please enter contact no</string>
+    <string name="invalid_inquire">Please type your inquire here</string>
+    <string name="invalid_feedback">Please enter the feedback</string>
+</resources>

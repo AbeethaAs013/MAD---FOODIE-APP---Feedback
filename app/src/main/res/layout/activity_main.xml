@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89FF00"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="349dp"
+        android:layout_height="494dp"
+        android:background="@drawable/round_corner_top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189">
+
+        <TextView
+            android:id="@+id/textinqure1"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/text_inquire1"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image01"
+            android:layout_width="154dp"
+            android:layout_height="116dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textinqure1"
+            android:src="@drawable/foodie_inverted__white_" />
+        //name
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="117dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/name"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.168"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textinqure1" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="279dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:shadowColor="@color/black"
+            android:text="@string/name_id"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.557"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image01" />
+        //type
+
+        <TextView
+            android:id="@+id/texttype"
+            android:layout_width="119dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/text_type"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.165"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_name" />
+
+        <EditText
+            android:id="@+id/edit_Inquiry"
+            android:layout_width="279dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:text="@string/inquiry_id"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.557"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texttype" />
+
+        //Contact
+
+        <TextView
+            android:id="@+id/textcontactno"
+            android:layout_width="154dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/text_contact_no"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_Inquiry" />
+
+        <EditText
+            android:id="@+id/edit_Contact"
+            android:layout_width="279dp"
+            android:layout_height="29dp"
+            android:layout_marginBottom="172dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:text="@string/contact_id"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.542"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        //inquiry
+
+        <TextView
+            android:id="@+id/textinqurytype"
+            android:layout_width="165dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/text_inquiry_type"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.211"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_Contact" />
+
+        <EditText
+            android:id="@+id/edit_Inquire"
+            android:layout_width="279dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="28dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:lines="6"
+            android:text="@string/inquiry_type"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.557"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="229dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="116dp"
+        android:rotationY="0"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        app:backgroundTint="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/nextbutton"
+        android:layout_width="142dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="56dp"
+        android:text="Next"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
